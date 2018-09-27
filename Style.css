@@ -1,0 +1,62 @@
+
+.ov_1{
+	
+	width:200px;
+	height:100px;
+	/*background:red;*/
+	-moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	border: solid red;
+	animation-name: krugy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite
+	}
+.ov_2{
+	position:absolute;
+	width:200px;
+	height:100px;
+	/*background:black;*/
+	-moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	border: solid black;
+	transform: rotate(20deg);
+	animation-name: krugy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.ov_3{
+	position:absolute;
+	width:200px;
+	height:100px;
+	/*background:blue;*/
+	-moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	border: solid blue;
+	transform: rotate(20deg);
+	animation-name: krugy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite
+}
+.ov_4{
+	position:absolute;
+	width:200px;
+	height:100px;
+	/*background:yellow;*/
+	-moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+    border: solid yellow;
+    transform: rotate(20deg); 
+	animation-name: krugy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite
+}
+@keyframes krugy{
+	100%{
+		transform: rotate(360deg);
+	}
+	
+}
